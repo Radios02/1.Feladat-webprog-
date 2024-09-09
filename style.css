@@ -1,0 +1,75 @@
+#elso{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+#masodik{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+#harmadik{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+#negyedik{
+    flex-direction:column;
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.zold{
+    background-color: green;
+    flex: 1;
+}
+
+.sarga{
+    background-color: yellow;
+    flex: 1;
+}
+
+.lila{
+    background-color: purple;
+    flex: 1;
+}
+
+/*Masodik feladat*/
+#masodik>.zold{
+    flex: 1;
+}
+#masodik>.sarga{
+    flex: 2;
+}
+#masodik>.lila{
+    flex: 1;
+}
+
+/*Harmadik feladat*/
+#harmadik>.zold{
+    flex: 1;
+    order: 3;
+}
+#harmadik>.sarga{
+    flex: 2;
+    order: 2;
+}
+#harmadik>.lila{
+    flex: 1;
+    order: 1;
+}
+
+/*HNegyedik feladat*/
+#negyediki>.zold{
+    flex: 1;
+    order: 1;
+}
+#negyedik>.sarga{
+    flex: 2;
+    order: 3;
+}
+#negyedik>.lila{
+    flex: 1;
+    order: 2;
+}
